@@ -1,4 +1,4 @@
-# EasyDock & CReM Setup (9th Advance In Silico Drug Design Workshop)
+# EasyDock & CReM Setup (9th Advanced In Silico Drug Design Workshop)
 
 https://www.kfc.upol.cz/9add
 
@@ -39,7 +39,7 @@ These pipelines are designed to support high-throughput automated docking and st
 
 4. Create the Python environment: `conda env create -f crem_env_win.yml`
 
-5. Install **CDPKit** by downloading the latest release
+5. Install **CDPKit** by downloading the latest release  
    https://github.com/molinfo-vienna/CDPKit/releases
 
 6. Update the PATH variable to add the path to binaries of CDPKit
@@ -58,7 +58,7 @@ These pipelines are designed to support high-throughput automated docking and st
    https://www.anaconda.com/docs/getting-started/miniconda/install
 2. Install python environment: `conda env create -f crem_env.yml`
 3. Install CDPKit by downloading the latest release
-   https://github.com/molinfo-vienna/CDPKit/releases
+   https://github.com/molinfo-vienna/CDPKit/releases  
 3.1. (example) `sh CDPKit-1.2.3-Linux-x86_64.sh --prefix=/home/XXX/opt`  
 3.2. Set PATH environment variable to include CDPKit binaries; add `CDPKit/Bin` directory to your `$PATH` variable in `.bash_profile`:  
 Linux (example)  
@@ -73,6 +73,7 @@ MacOS (example)
 1. To check that main programs were installed correctly and PATH variable was properly configured you may run the following commands in the console (in the case of success, they will print help messages):  
 ```
 conda activate crem-add9
+easydock -h
 cremdock -h
 crempharm -h
 
