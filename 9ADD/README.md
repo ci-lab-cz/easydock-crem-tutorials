@@ -1,4 +1,6 @@
-# EasyDock & CReM Setup
+# EasyDock & CReM Setup (9th Advance In Silico Drug Design Workshop)
+
+https://www.kfc.upol.cz/9add
 
 ## Overview
 
