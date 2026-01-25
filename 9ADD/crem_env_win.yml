@@ -1,4 +1,4 @@
-name: crem
+name: crem-add9
 channels:
   - conda-forge
   - defaults
@@ -14,6 +14,7 @@ dependencies:
   - sqlite
   - openbabel
   - networkx=3.3
+  - prody
   # macOS only:
   # - boost
   # - swig
