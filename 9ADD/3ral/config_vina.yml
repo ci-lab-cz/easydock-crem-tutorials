@@ -1,0 +1,6 @@
+protein: ~/python/easydock-crem-tutorial/9ADD/3ral/3ral.pdbqt
+protein_setup: ~/python/easydock-crem-tutorial/9ADD/3ral/3ral.box.txt
+exhaustiveness: 8
+seed: -1
+n_poses: 3
+ncpu: 8

@@ -1,0 +1,617 @@
+HEADER    TRANSFERASE/TRANSFERASE INHIBITOR       28-MAR-11   3RAL              
+TITLE     CDK2 IN COMPLEX WITH INHIBITOR RC-2-34                                
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: CYCLIN-DEPENDENT KINASE 2;                                 
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 SYNONYM: CDK2, CELL DIVISION PROTEIN KINASE 2, P33 PROTEIN KINASE;   
+COMPND   5 EC: 2.7.11.22;                                                       
+COMPND   6 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 GENE: CDK2;                                                          
+SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   8 EXPRESSION_SYSTEM_STRAIN: TUNER(DE3);                                
+SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PGEX6P-1                                  
+KEYWDS    PROTEIN KINASE, INHIBITOR, TRANSFERASE-TRANSFERASE INHIBITOR COMPLEX  
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    S.BETZI,R.ALAM,H.HAN,A.BECKER,E.SCHONBRUNN                            
+REVDAT   4   13-SEP-23 3RAL    1       REMARK SEQADV                            
+REVDAT   3   05-JUN-13 3RAL    1       JRNL                                     
+REVDAT   2   15-MAY-13 3RAL    1       JRNL                                     
+REVDAT   1   31-OCT-12 3RAL    0                                                
+JRNL        AUTH   E.SCHONBRUNN,S.BETZI,R.ALAM,M.P.MARTIN,A.BECKER,H.HAN,       
+JRNL        AUTH 2 R.FRANCIS,R.CHAKRASALI,S.JAKKARAJ,A.KAZI,S.M.SEBTI,          
+JRNL        AUTH 3 C.L.CUBITT,A.W.GEBHARD,L.A.HAZLEHURST,J.S.TASH,G.I.GEORG     
+JRNL        TITL   DEVELOPMENT OF HIGHLY POTENT AND SELECTIVE DIAMINOTHIAZOLE   
+JRNL        TITL 2 INHIBITORS OF CYCLIN-DEPENDENT KINASES.                      
+JRNL        REF    J.MED.CHEM.                   V.  56  3768 2013              
+JRNL        REFN                   ISSN 0022-2623                               
+JRNL        PMID   23600925                                                     
+JRNL        DOI    10.1021/JM301234K                                            
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    1.75 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : CNS 1.2                                              
+REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
+REMARK   3               : READ,RICE,SIMONSON,WARREN                            
+REMARK   3                                                                      
+REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.75                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 18.82                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 1449324.800                    
+REMARK   3   DATA CUTOFF LOW          (ABS(F)) : 0.0000                         
+REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 99.7                           
+REMARK   3   NUMBER OF REFLECTIONS             : 28934                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE            (WORKING SET) : 0.198                           
+REMARK   3   FREE R VALUE                     : 0.228                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 3.800                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 1100                            
+REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : 0.007                           
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 6                            
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.75                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.86                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 99.80                        
+REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : 4568                         
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.2170                       
+REMARK   3   BIN FREE R VALUE                    : 0.2750                       
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 3.80                         
+REMARK   3   BIN FREE R VALUE TEST SET COUNT     : 180                          
+REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : 0.020                        
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 2231                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 27                                      
+REMARK   3   SOLVENT ATOMS            : 195                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 18.40                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 25.40                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : -2.84000                                             
+REMARK   3    B22 (A**2) : -4.89000                                             
+REMARK   3    B33 (A**2) : 7.73000                                              
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED COORDINATE ERROR.                                         
+REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.19                            
+REMARK   3   ESD FROM SIGMAA              (A) : 0.09                            
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : 5.00                            
+REMARK   3                                                                      
+REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
+REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : 0.23                            
+REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.14                            
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
+REMARK   3   BOND LENGTHS                 (A) : 0.007                           
+REMARK   3   BOND ANGLES            (DEGREES) : 1.400                           
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 22.60                           
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.860                           
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
+REMARK   3   MAIN-CHAIN BOND              (A**2) : 1.230 ; 1.500                
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 2.040 ; 2.000                
+REMARK   3   SIDE-CHAIN BOND              (A**2) : 1.730 ; 2.000                
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 2.580 ; 2.500                
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELING.                                              
+REMARK   3   METHOD USED : FLAT MODEL                                           
+REMARK   3   KSOL        : 0.40                                                 
+REMARK   3   BSOL        : 56.36                                                
+REMARK   3                                                                      
+REMARK   3  NCS MODEL : NONE                                                    
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS.                         RMS   SIGMA/WEIGHT          
+REMARK   3   GROUP  1  POSITIONAL            (A) : NULL  ; NULL                 
+REMARK   3   GROUP  1  B-FACTOR           (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  PARAMETER FILE  1  : PROTEIN_REP.PARAM                              
+REMARK   3  PARAMETER FILE  2  : WATER_REP.PARAM                                
+REMARK   3  PARAMETER FILE  3  : R34.PAR                                        
+REMARK   3  PARAMETER FILE  4  : NULL                                           
+REMARK   3  TOPOLOGY FILE  1   : PROTEIN.TOP                                    
+REMARK   3  TOPOLOGY FILE  2   : R34.TOP                                        
+REMARK   3  TOPOLOGY FILE  3   : WATER.TOP                                      
+REMARK   3  TOPOLOGY FILE  4   : NULL                                           
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: BULK SOLVENT MODEL USED                   
+REMARK   4                                                                      
+REMARK   4 3RAL COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 29-MAR-11.                  
+REMARK 100 THE DEPOSITION ID IS D_1000064696.                                   
+REMARK 200                                                                      
+REMARK 200 EXPERIMENTAL DETAILS                                                 
+REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
+REMARK 200  DATE OF DATA COLLECTION        : 20-JUN-08                          
+REMARK 200  TEMPERATURE           (KELVIN) : 93                                 
+REMARK 200  PH                             : 7.5                                
+REMARK 200  NUMBER OF CRYSTALS USED        : 1                                  
+REMARK 200                                                                      
+REMARK 200  SYNCHROTRON              (Y/N) : N                                  
+REMARK 200  RADIATION SOURCE               : ROTATING ANODE                     
+REMARK 200  BEAMLINE                       : NULL                               
+REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU MICROMAX-007 HF             
+REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
+REMARK 200  WAVELENGTH OR RANGE        (A) : 1.54178                            
+REMARK 200  MONOCHROMATOR                  : MIRRORS                            
+REMARK 200  OPTICS                         : MIRRORS                            
+REMARK 200                                                                      
+REMARK 200  DETECTOR TYPE                  : CCD                                
+REMARK 200  DETECTOR MANUFACTURER          : RIGAKU SATURN 944+                 
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : XDS                                
+REMARK 200  DATA SCALING SOFTWARE          : XDS                                
+REMARK 200                                                                      
+REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 28934                              
+REMARK 200  RESOLUTION RANGE HIGH      (A) : 1.750                              
+REMARK 200  RESOLUTION RANGE LOW       (A) : 20.000                             
+REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : -3.000                             
+REMARK 200                                                                      
+REMARK 200 OVERALL.                                                             
+REMARK 200  COMPLETENESS FOR RANGE     (%) : 99.7                               
+REMARK 200  DATA REDUNDANCY                : 6.910                              
+REMARK 200  R MERGE                    (I) : 0.03900                            
+REMARK 200  R SYM                      (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 31.7200                            
+REMARK 200                                                                      
+REMARK 200 IN THE HIGHEST RESOLUTION SHELL.                                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE HIGH (A) : 1.75                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE LOW  (A) : 1.80                     
+REMARK 200  COMPLETENESS FOR SHELL     (%) : 99.9                               
+REMARK 200  DATA REDUNDANCY IN SHELL       : 6.78                               
+REMARK 200  R MERGE FOR SHELL          (I) : 0.13300                            
+REMARK 200  R SYM FOR SHELL            (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR SHELL         : 12.50                              
+REMARK 200                                                                      
+REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
+REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
+REMARK 200 SOFTWARE USED: CNS 1.2                                               
+REMARK 200 STARTING MODEL: PDB ENTRY 1PW2                                       
+REMARK 200                                                                      
+REMARK 200 REMARK: NULL                                                         
+REMARK 280                                                                      
+REMARK 280 CRYSTAL                                                              
+REMARK 280 SOLVENT CONTENT, VS   (%): 38.94                                     
+REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.01                     
+REMARK 280                                                                      
+REMARK 280 CRYSTALLIZATION CONDITIONS: 5 MG/ML CDK2 PROTEIN, 3 MM INHIBITOR,    
+REMARK 280  15% V/V PEG3350, 50 MM HEPES/NAOH, 50 MM NA/K PHOSPHATE, PH 7.5,    
+REMARK 280  VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 291K                     
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
+REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 21 21 21                       
+REMARK 290                                                                      
+REMARK 290      SYMOP   SYMMETRY                                                
+REMARK 290     NNNMMM   OPERATOR                                                
+REMARK 290       1555   X,Y,Z                                                   
+REMARK 290       2555   -X+1/2,-Y,Z+1/2                                         
+REMARK 290       3555   -X,Y+1/2,-Z+1/2                                         
+REMARK 290       4555   X+1/2,-Y+1/2,-Z                                         
+REMARK 290                                                                      
+REMARK 290     WHERE NNN -> OPERATOR NUMBER                                     
+REMARK 290           MMM -> TRANSLATION VECTOR                                  
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY TRANSFORMATIONS                            
+REMARK 290 THE FOLLOWING TRANSFORMATIONS OPERATE ON THE ATOM/HETATM             
+REMARK 290 RECORDS IN THIS ENTRY TO PRODUCE CRYSTALLOGRAPHICALLY                
+REMARK 290 RELATED MOLECULES.                                                   
+REMARK 290   SMTRY1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 290   SMTRY1   2 -1.000000  0.000000  0.000000       26.76950            
+REMARK 290   SMTRY2   2  0.000000 -1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   2  0.000000  0.000000  1.000000       36.37200            
+REMARK 290   SMTRY1   3 -1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   3  0.000000  1.000000  0.000000       35.96050            
+REMARK 290   SMTRY3   3  0.000000  0.000000 -1.000000       36.37200            
+REMARK 290   SMTRY1   4  1.000000  0.000000  0.000000       26.76950            
+REMARK 290   SMTRY2   4  0.000000 -1.000000  0.000000       35.96050            
+REMARK 290   SMTRY3   4  0.000000  0.000000 -1.000000        0.00000            
+REMARK 290                                                                      
+REMARK 290 REMARK: NULL                                                         
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: MONOMERIC                         
+REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: MONOMERIC                  
+REMARK 350 SOFTWARE USED: PISA                                                  
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A                                     
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 465                                                                      
+REMARK 465 MISSING RESIDUES                                                     
+REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
+REMARK 465 EXPERIMENT. (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 465 IDENTIFIER; SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                
+REMARK 465                                                                      
+REMARK 465   M RES C SSSEQI                                                     
+REMARK 465     GLY A    -7                                                      
+REMARK 465     PRO A    -6                                                      
+REMARK 465     LEU A    -5                                                      
+REMARK 465     GLY A    -4                                                      
+REMARK 465     SER A    -3                                                      
+REMARK 465     PRO A    -2                                                      
+REMARK 465     GLU A    -1                                                      
+REMARK 465     PHE A     0                                                      
+REMARK 465     LEU A    37                                                      
+REMARK 465     ASP A    38                                                      
+REMARK 465     THR A    39                                                      
+REMARK 465     GLU A    40                                                      
+REMARK 465     THR A    41                                                      
+REMARK 465     GLU A    42                                                      
+REMARK 465     GLY A    43                                                      
+REMARK 465     VAL A    44                                                      
+REMARK 465     ARG A   150                                                      
+REMARK 465     ALA A   151                                                      
+REMARK 465     PHE A   152                                                      
+REMARK 465     GLY A   153                                                      
+REMARK 465     VAL A   154                                                      
+REMARK 465     PRO A   155                                                      
+REMARK 465     VAL A   156                                                      
+REMARK 465     ARG A   157                                                      
+REMARK 465     THR A   158                                                      
+REMARK 465     TYR A   159                                                      
+REMARK 465     THR A   160                                                      
+REMARK 465     HIS A   161                                                      
+REMARK 465     GLU A   162                                                      
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500    GLU A   8      155.97    178.90                                   
+REMARK 500    GLU A  73       69.94     37.86                                   
+REMARK 500    ARG A 126      -18.95     81.10                                   
+REMARK 500    ASP A 127       50.72   -145.46                                   
+REMARK 500    PRO A 254        0.88    -68.08                                   
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 800                                                                      
+REMARK 800 SITE                                                                 
+REMARK 800 SITE_IDENTIFIER: AC1                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE 04Z A 499                 
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 3QL8   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR JWS-6-260                             
+REMARK 900 RELATED ID: 3QQF   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR L1                                    
+REMARK 900 RELATED ID: 3QQG   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR L2-5                                  
+REMARK 900 RELATED ID: 3QQH   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR L2-2                                  
+REMARK 900 RELATED ID: 3QQJ   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR L2                                    
+REMARK 900 RELATED ID: 3QQK   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR L4                                    
+REMARK 900 RELATED ID: 3QQL   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR L3                                    
+REMARK 900 RELATED ID: 3QRT   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR NSK-MC2-55                            
+REMARK 900 RELATED ID: 3QRU   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR NSK-MC1-12                            
+REMARK 900 RELATED ID: 3QTQ   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-1-137                              
+REMARK 900 RELATED ID: 3QTR   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-1-148                              
+REMARK 900 RELATED ID: 3QTS   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-12                               
+REMARK 900 RELATED ID: 3QTU   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-132                              
+REMARK 900 RELATED ID: 3QTW   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-13                               
+REMARK 900 RELATED ID: 3QTX   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-35                               
+REMARK 900 RELATED ID: 3QTZ   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-36                               
+REMARK 900 RELATED ID: 3QU0   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-38                               
+REMARK 900 RELATED ID: 3QWJ   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-142                             
+REMARK 900 RELATED ID: 3QWK   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-150                             
+REMARK 900 RELATED ID: 3QX2   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-190                             
+REMARK 900 RELATED ID: 3QX4   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-78                              
+REMARK 900 RELATED ID: 3QXO   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-84                              
+REMARK 900 RELATED ID: 3QXP   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-3-89                               
+REMARK 900 RELATED ID: 3QZF   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR JWS-6-52                              
+REMARK 900 RELATED ID: 3QZG   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR JWS-6-76                              
+REMARK 900 RELATED ID: 3QZH   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-124                             
+REMARK 900 RELATED ID: 3QZI   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-126                             
+REMARK 900 RELATED ID: 3R1Q   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-102                             
+REMARK 900 RELATED ID: 3R1S   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-127                             
+REMARK 900 RELATED ID: 3R1Y   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-134                             
+REMARK 900 RELATED ID: 3R28   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-140                             
+REMARK 900 RELATED ID: 3R6X   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-158                             
+REMARK 900 RELATED ID: 3R71   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-162                             
+REMARK 900 RELATED ID: 3R73   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-164                             
+REMARK 900 RELATED ID: 3R7E   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-67                              
+REMARK 900 RELATED ID: 3R7I   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-74                              
+REMARK 900 RELATED ID: 3R7U   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-75                              
+REMARK 900 RELATED ID: 3R7V   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-9                               
+REMARK 900 RELATED ID: 3R7Y   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-2-88                              
+REMARK 900 RELATED ID: 3R83   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-2-92                              
+REMARK 900 RELATED ID: 3R8L   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR L3-4                                  
+REMARK 900 RELATED ID: 3R8M   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR L3-3                                  
+REMARK 900 RELATED ID: 3R8P   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR NSK-MC1-6                             
+REMARK 900 RELATED ID: 3R8U   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-1-132                              
+REMARK 900 RELATED ID: 3R8V   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-1-135                              
+REMARK 900 RELATED ID: 3R8Z   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-1-136                              
+REMARK 900 RELATED ID: 3R9D   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-135                              
+REMARK 900 RELATED ID: 3R9H   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-142                              
+REMARK 900 RELATED ID: 3R9N   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-21                               
+REMARK 900 RELATED ID: 3R9O   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-143                              
+REMARK 900 RELATED ID: 3RAH   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-22                               
+REMARK 900 RELATED ID: 3RAI   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-160                             
+REMARK 900 RELATED ID: 3RAK   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-32                               
+REMARK 900 RELATED ID: 3RJC   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR L4-12                                 
+REMARK 900 RELATED ID: 3RK5   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-72                               
+REMARK 900 RELATED ID: 3RK7   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-71                               
+REMARK 900 RELATED ID: 3RK9   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-74                               
+REMARK 900 RELATED ID: 3RKB   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-73                               
+REMARK 900 RELATED ID: 3RM6   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-2-80                              
+REMARK 900 RELATED ID: 3RM7   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-91                              
+REMARK 900 RELATED ID: 3RMF   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-33                               
+REMARK 900 RELATED ID: 3RNI   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-3-86                               
+REMARK 900 RELATED ID: 3ROY   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-154                             
+REMARK 900 RELATED ID: 3RPO   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR KVR-1-156                             
+REMARK 900 RELATED ID: 3RPR   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-49                               
+REMARK 900 RELATED ID: 3RPV   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-88                               
+REMARK 900 RELATED ID: 3RPY   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-40                               
+REMARK 900 RELATED ID: 3RZB   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-23                               
+REMARK 900 RELATED ID: 3S00   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR L4-14                                 
+REMARK 900 RELATED ID: 3S0O   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-1-138                              
+REMARK 900 RELATED ID: 3S1H   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-2-39                               
+REMARK 900 RELATED ID: 3SQQ   RELATED DB: PDB                                   
+REMARK 900 CDK2 IN COMPLEX WITH INHIBITOR RC-3-96                               
+DBREF  3RAL A    1   298  UNP    P24941   CDK2_HUMAN       1    298             
+SEQADV 3RAL GLY A   -7  UNP  P24941              EXPRESSION TAG                 
+SEQADV 3RAL PRO A   -6  UNP  P24941              EXPRESSION TAG                 
+SEQADV 3RAL LEU A   -5  UNP  P24941              EXPRESSION TAG                 
+SEQADV 3RAL GLY A   -4  UNP  P24941              EXPRESSION TAG                 
+SEQADV 3RAL SER A   -3  UNP  P24941              EXPRESSION TAG                 
+SEQADV 3RAL PRO A   -2  UNP  P24941              EXPRESSION TAG                 
+SEQADV 3RAL GLU A   -1  UNP  P24941              EXPRESSION TAG                 
+SEQADV 3RAL PHE A    0  UNP  P24941              EXPRESSION TAG                 
+SEQRES   1 A  306  GLY PRO LEU GLY SER PRO GLU PHE MET GLU ASN PHE GLN          
+SEQRES   2 A  306  LYS VAL GLU LYS ILE GLY GLU GLY THR TYR GLY VAL VAL          
+SEQRES   3 A  306  TYR LYS ALA ARG ASN LYS LEU THR GLY GLU VAL VAL ALA          
+SEQRES   4 A  306  LEU LYS LYS ILE ARG LEU ASP THR GLU THR GLU GLY VAL          
+SEQRES   5 A  306  PRO SER THR ALA ILE ARG GLU ILE SER LEU LEU LYS GLU          
+SEQRES   6 A  306  LEU ASN HIS PRO ASN ILE VAL LYS LEU LEU ASP VAL ILE          
+SEQRES   7 A  306  HIS THR GLU ASN LYS LEU TYR LEU VAL PHE GLU PHE LEU          
+SEQRES   8 A  306  HIS GLN ASP LEU LYS LYS PHE MET ASP ALA SER ALA LEU          
+SEQRES   9 A  306  THR GLY ILE PRO LEU PRO LEU ILE LYS SER TYR LEU PHE          
+SEQRES  10 A  306  GLN LEU LEU GLN GLY LEU ALA PHE CYS HIS SER HIS ARG          
+SEQRES  11 A  306  VAL LEU HIS ARG ASP LEU LYS PRO GLN ASN LEU LEU ILE          
+SEQRES  12 A  306  ASN THR GLU GLY ALA ILE LYS LEU ALA ASP PHE GLY LEU          
+SEQRES  13 A  306  ALA ARG ALA PHE GLY VAL PRO VAL ARG THR TYR THR HIS          
+SEQRES  14 A  306  GLU VAL VAL THR LEU TRP TYR ARG ALA PRO GLU ILE LEU          
+SEQRES  15 A  306  LEU GLY CYS LYS TYR TYR SER THR ALA VAL ASP ILE TRP          
+SEQRES  16 A  306  SER LEU GLY CYS ILE PHE ALA GLU MET VAL THR ARG ARG          
+SEQRES  17 A  306  ALA LEU PHE PRO GLY ASP SER GLU ILE ASP GLN LEU PHE          
+SEQRES  18 A  306  ARG ILE PHE ARG THR LEU GLY THR PRO ASP GLU VAL VAL          
+SEQRES  19 A  306  TRP PRO GLY VAL THR SER MET PRO ASP TYR LYS PRO SER          
+SEQRES  20 A  306  PHE PRO LYS TRP ALA ARG GLN ASP PHE SER LYS VAL VAL          
+SEQRES  21 A  306  PRO PRO LEU ASP GLU ASP GLY ARG SER LEU LEU SER GLN          
+SEQRES  22 A  306  MET LEU HIS TYR ASP PRO ASN LYS ARG ILE SER ALA LYS          
+SEQRES  23 A  306  ALA ALA LEU ALA HIS PRO PHE PHE GLN ASP VAL THR LYS          
+SEQRES  24 A  306  PRO VAL PRO HIS LEU ARG LEU                                  
+HET    04Z  A 499      27                                                       
+HETNAM     04Z 4-{[4-AMINO-5-(3-METHOXYBENZOYL)-1,3-THIAZOL-2-                  
+HETNAM   2 04Z  YL]AMINO}BENZENESULFONAMIDE                                     
+FORMUL   2  04Z    C17 H16 N4 O4 S2                                             
+FORMUL   3  HOH   *195(H2 O)                                                    
+HELIX    1   1 PRO A   45  GLU A   57  1                                  13
+HELIX    2   2 LEU A   87  SER A   94  1                                   8
+HELIX    3   3 PRO A  100  HIS A  121  1                                  22
+HELIX    4   4 LYS A  129  GLN A  131  1                                   3
+HELIX    5   5 ALA A  170  LEU A  175  1                                   6
+HELIX    6   6 THR A  182  ARG A  199  1                                  18
+HELIX    7   7 SER A  207  GLY A  220  1                                  14
+HELIX    8   8 GLY A  229  MET A  233  1                                   5
+HELIX    9   9 ASP A  247  VAL A  252  1                                   6
+HELIX   10  10 ASP A  256  LEU A  267  1                                  12
+HELIX   11  11 SER A  276  GLN A  287  1                                  12
+SHEET    1   1 1 PHE A   4  GLU A  12  0
+SHEET    2   2 1 GLY A  16  ASN A  23  0
+SHEET    3   3 1 VAL A  29  ILE A  35  0
+SHEET    4   4 1 LEU A  66  THR A  72  0
+SHEET    5   5 1 LYS A  75  GLU A  81  0
+SHEET    6   6 1 GLN A  85  ASP A  86  0
+SHEET    7   7 1 LEU A 133  ILE A 135  0
+SHEET    8   8 1 ILE A 141  LEU A 143  0
+SITE     1 AC1 19 ILE A  10  GLY A  13  GLY A  16  VAL A  18                    
+SITE     2 AC1 19 ALA A  31  LYS A  33  VAL A  64  GLU A  81                    
+SITE     3 AC1 19 PHE A  82  LEU A  83  HIS A  84  GLN A  85                    
+SITE     4 AC1 19 ASP A  86  LYS A  89  LEU A 134  ASP A 145                    
+SITE     5 AC1 19 HOH A 329  HOH A 383  HOH A 387                               
+CRYST1   53.539   71.921   72.744  90.00  90.00  90.00 P 21 21 21    4          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.018678  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  0.013904  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.013747        0.00000                         
+TER    4523      LEU A 298
+HETATM 4524  C1  04Z A 499      95.908  77.367 -46.581  1.00 18.60           C
+HETATM 4525  N1  04Z A 499      92.183  82.225 -50.791  1.00 17.61           N
+HETATM 4526  O1  04Z A 499      86.032  80.982 -44.952  1.00 18.08           O
+HETATM 4527  S1  04Z A 499      92.839  80.939 -48.646  1.00 15.39           S
+HETATM 4528  C2  04Z A 499      96.910  78.236 -47.196  1.00 21.63           C
+HETATM 4529  N2  04Z A 499      93.736  81.427 -52.376  1.00 19.01           N
+HETATM 4530  O2  04Z A 499      86.720  83.322 -43.858  1.00 21.07           O
+HETATM 4531  S2  04Z A 499      87.254  81.879 -44.408  1.00 18.35           S
+HETATM 4532  C3  04Z A 499      96.582  79.004 -48.369  1.00 19.37           C
+HETATM 4533  N3  04Z A 499      90.808  82.804 -48.998  1.00 16.49           N
+HETATM 4534  O3  04Z A 499      95.522  79.568 -51.330  1.00 20.09           O
+HETATM 4535  C4  04Z A 499      94.249  78.042 -48.323  1.00 17.27           C
+HETATM 4536  N4  04Z A 499      87.983  81.102 -43.273  1.00 19.55           N
+HETATM 4537  C5  04Z A 499      94.562  77.271 -47.157  1.00 18.17           C
+HETATM 4538  O6  04Z A 499      98.200  78.350 -46.663  1.00 25.25           O
+HETATM 4539  C7  04Z A 499      98.620  77.697 -45.578  1.00 27.58           C
+HETATM 4540  C10 04Z A 499      95.244  78.919 -48.949  1.00 19.31           C
+HETATM 4541  C11 04Z A 499      94.861  79.712 -50.159  1.00 18.90           C
+HETATM 4542  C12 04Z A 499      93.716  80.674 -50.086  1.00 16.48           C
+HETATM 4543  C13 04Z A 499      93.233  81.443 -51.127  1.00 18.59           C
+HETATM 4544  C14 04Z A 499      91.854  82.073 -49.503  1.00 16.89           C
+HETATM 4545  C15 04Z A 499      90.008  82.548 -47.900  1.00 17.64           C
+HETATM 4546  C16 04Z A 499      90.152  81.360 -47.021  1.00 16.41           C
+HETATM 4547  C17 04Z A 499      89.291  81.152 -45.922  1.00 18.37           C
+HETATM 4548  C18 04Z A 499      88.249  82.115 -45.642  1.00 18.63           C
+HETATM 4549  C19 04Z A 499      88.095  83.294 -46.487  1.00 17.69           C
+HETATM 4550  C20 04Z A 499      88.958  83.507 -47.596  1.00 19.02           C
+HETATM 4551  H1  04Z A 499      96.159  76.794 -45.700  1.00  0.00           H
+HETATM 4552  H3  04Z A 499      97.326  79.644 -48.820  1.00  0.00           H
+HETATM 4553  HN3 04Z A 499      90.591  83.652 -49.502  1.00  0.00           H
+HETATM 4554  H4  04Z A 499      93.259  77.976 -48.750  1.00  0.00           H
+HETATM 4555  H5  04Z A 499      93.818  76.629 -46.709  1.00  0.00           H
+HETATM 4556  H16 04Z A 499      90.931  80.641 -47.227  1.00  0.00           H
+HETATM 4557  H17 04Z A 499      89.409  80.281 -45.295  1.00  0.00           H
+HETATM 4558  H19 04Z A 499      87.318  84.012 -46.268  1.00  0.00           H
+HETATM 4559  H20 04Z A 499      88.834  84.383 -48.215  1.00  0.00           H
+HETATM 4560  H21 04Z A 499      93.247  82.121 -52.923  1.00  0.00           H
+HETATM 4561  H22 04Z A 499      94.475  80.824 -52.709  1.00  0.00           H
+HETATM 4562 HN41 04Z A 499      88.192  80.165 -43.586  1.00  0.00           H
+HETATM 4563 HN42 04Z A 499      87.388  81.060 -42.458  1.00  0.00           H
+HETATM 4564  H71 04Z A 499      97.767  77.467 -44.939  1.00  0.00           H
+HETATM 4565  H72 04Z A 499      99.327  78.320 -45.030  1.00  0.00           H
+HETATM 4566  H73 04Z A 499      99.109  76.770 -45.878  1.00  0.00           H
+CONECT 4524 4528 4537 4551
+CONECT 4540 4532 4535 4541
+CONECT 4541 4534 4540 4542
+CONECT 4542 4527 4541 4543
+CONECT 4543 4525 4529 4542
+CONECT 4544 4525 4527 4533
+CONECT 4545 4533 4546 4550
+CONECT 4546 4545 4547 4556
+CONECT 4547 4546 4548 4557
+CONECT 4548 4531 4547 4549
+CONECT 4549 4548 4550 4558
+CONECT 4528 4524 4532 4538
+CONECT 4550 4545 4549 4559
+CONECT 4532 4528 4540 4552
+CONECT 4535 4537 4540 4554
+CONECT 4537 4524 4535 4555
+CONECT 4539 4538 4564 4565 4566
+CONECT 4551 4524
+CONECT 4556 4546
+CONECT 4557 4547
+CONECT 4558 4549
+CONECT 4559 4550
+CONECT 4560 4529
+CONECT 4561 4529
+CONECT 4552 4532
+CONECT 4554 4535
+CONECT 4555 4537
+CONECT 4564 4539
+CONECT 4565 4539
+CONECT 4566 4539
+CONECT 4553 4533
+CONECT 4562 4536
+CONECT 4563 4536
+CONECT 4525 4543 4544
+CONECT 4529 4543 4560 4561
+CONECT 4533 4544 4545 4553
+CONECT 4536 4562 4531 4563
+CONECT 4526 4531
+CONECT 4530 4531
+CONECT 4534 4541
+CONECT 4538 4528 4539
+CONECT 4527 4542 4544
+CONECT 4531 4526 4530 4536 4548
+END
